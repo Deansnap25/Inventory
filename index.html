@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inventory System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Inventory Expiration System</h1>
+
+<div class="form">
+  <input type="text" id="item" placeholder="Item Name">
+  <input type="number" id="stock" placeholder="Stock">
+  <input type="date" id="expiry">
+  <button onclick="addItem()">Add Item</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Stock</th>
+      <th>Expiry Date</th>
+      <th>Days Left</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+
+  <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
