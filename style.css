@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.form {
+  margin: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  background: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
